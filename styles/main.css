@@ -1,0 +1,201 @@
+body {
+	/* background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); */
+	height: 100vh;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.iphone {
+	width: 90%;
+	height: 90%;
+	background-color: white;
+	border-radius: 30px;
+	box-shadow: 5px 5px 18px -3px rgba(0, 0, 0, 0.8);
+	border: 3px solid lightgrey;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	transition: all 0.30s ease-in-out;
+}
+
+.js-iphone .iphone {
+	width: 320px;
+	height: 640px;
+}
+
+.iphone-camera {
+	position: relative;
+    top: 32px;
+    right: 50px;
+    background: rgba(31, 31, 31, 0.12);
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.iphone-speaker {
+	position: relative;
+	top: 25px;
+	background: rgba(31, 31, 31, 0.12);
+	margin: auto;
+	width: 50px;
+	height: 5px;
+	border-radius: 5px;
+}
+
+.iphone-button {
+	position: relative;
+    top: 63px;
+    border: 2px solid rgba(31, 31, 31, 0.12);
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.3), inset 5px 5px 0px 0px rgba(0, 0, 0, 0.1);
+	-moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.iphone-button:active {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.screen {
+	position: relative;
+    top: 50px;
+    margin: auto;
+    width: 93%;
+    height: 75%;
+    border-radius: 3px;
+	background-image: url('../assets/background.png');
+	background-position: 62% 64%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+}
+
+.screen-inner {
+	color: white;
+	padding: 20px;
+}
+
+.hotel-image {
+	width: 100%;
+	outline: 3px solid white;
+}
+
+.company-address {
+	margin: 20px 0px;
+}
+
+.company-address-link {
+	text-decoration: underline;
+}
+
+.header {
+	padding: 2% 0px;
+	background-color: #000;
+	box-shadow: 0px -1px 0px 2px rgba(221, 221, 221, 0.3);
+}
+
+.header-inner {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	padding: 0px 10px;
+}
+
+.header-text {
+	margin: 0 auto;
+}
+
+.header-logo {
+	width: 40px;
+}
+
+.header-button {
+	background-color: #1c1c1c;
+	color: white;
+	border: none;
+	box-shadow: 0px 0px 1px 0px white;
+	padding: 5px 10px;
+}
+
+.arrow {
+    display: inline-block;
+    position: relative;
+    width: 12px;
+	transform: rotate(135deg);
+}
+
+.arrow-right {
+	transform: rotate(315deg);
+	float: right;
+	top: 3px;
+}
+
+.arrow:after {
+	border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    content: '';
+    display: inline-block;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 6px;
+}
+
+.company-address-sub-text {
+	color: #89a5bf;
+	margin-bottom: 5px;
+}
+
+.nav-container {
+	overflow: auto;
+	border-radius: 5px;
+	background-color:white;
+}
+
+.nav-link {
+	color:#001325;
+	padding: 16px 20px;
+	font-weight: 600;
+	font-size: 16px;
+	border-bottom: solid 1px #cbcbcb;
+	border-top: solid 1px #cbcbcb;
+	margin-bottom: 1px;
+	background: -moz-linear-gradient(90deg, rgba(197,210,222,1) 0%, rgba(232,235,238,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(232,235,238,1)), color-stop(100%, rgba(197,210,222,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(90deg, rgba(197,210,222,1) 0%, rgba(232,235,238,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(90deg, rgba(197,210,222,1) 0%, rgba(232,235,238,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(90deg, rgba(197,210,222,1) 0%, rgba(232,235,238,1) 100%); /* ie10+ */
+	background: linear-gradient(0deg, rgba(197,210,222,1) 0%, rgba(232,235,238,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ebee', endColorstr='#c5d2de',GradientType=0 ); /* ie6-9 */
+}
+
+.click-me {
+	position: relative;
+	top: 67px;
+	color: #7a9bbb;
+	text-align: center;
+}
