@@ -1,1 +1,4 @@
-# hilton-test-assessment-1
+# Hilton Assessment
+## Installation
+
+Clone this repository, open the index.html file in your browser.
