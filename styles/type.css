@@ -31,11 +31,14 @@ h6 {
 }
 
 p, a {
-	font-weight:300;
+	font-weight:400;
 	line-height: 1.5
 }
+p {
+    font-size: .85rem;
+}
 body {
-	font-size: .9rem;
+	font-size: .85rem;
 	font-family: 'Lato', sans-serif;
 	color: #fff;
 }

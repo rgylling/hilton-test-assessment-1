@@ -101,18 +101,10 @@ body {
 	outline: 3px solid white;
 }
 
-.company-address {
-	margin: 20px 0px;
-}
-
-.company-address-link {
-	text-decoration: underline;
-}
-
 .header {
 	padding: 2% 0px;
-	background-color: #000;
-	box-shadow: 0px -1px 0px 2px rgba(221, 221, 221, 0.3);
+	background-color: #1C1C1C;
+	border-bottom: solid 1px rgb(68, 66, 66);
 }
 
 .header-inner {
@@ -131,10 +123,10 @@ body {
 }
 
 .header-button {
-	background-color: #1c1c1c;
+	background: linear-gradient(#444242, #000);
 	color: white;
 	border: none;
-	box-shadow: 0px 0px 1px 0px white;
+	border: 1px solid rgb(68, 66, 66);
 	padding: 5px 10px;
 }
 
@@ -165,9 +157,22 @@ body {
     width: 6px;
 }
 
+.company-address {
+	margin: 20px 0px;
+}
+
+.company-address-link {
+	text-decoration: underline;
+	font-weight:300;
+}
+
+.company-address-main {
+	margin-bottom: 3px;
+}
+
 .company-address-sub-text {
 	color: #89a5bf;
-	margin-bottom: 5px;
+	font-weight: 300;
 }
 
 .nav-container {
