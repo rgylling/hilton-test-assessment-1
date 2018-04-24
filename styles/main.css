@@ -119,7 +119,7 @@ body {
 }
 
 .header-logo {
-	width: 40px;
+	width: 27px;
 }
 
 .header-button {
@@ -127,7 +127,8 @@ body {
 	color: white;
 	border: none;
 	border: 1px solid rgb(68, 66, 66);
-	padding: 5px 10px;
+	padding: 5px 6px;
+	border-radius: 3px;
 }
 
 .arrow {
@@ -143,6 +144,11 @@ body {
 	top: 3px;
 }
 
+.nav-link .arrow-right:after {
+	height: 7px;
+	width: 7px;
+}
+
 .arrow:after {
 	border-bottom-style: solid;
     border-bottom-width: 2px;
@@ -150,11 +156,11 @@ body {
     border-right-width: 2px;
     content: '';
     display: inline-block;
-    height: 6px;
+    height: 4px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 6px;
+    width: 4px;
 }
 
 .company-address {
@@ -171,7 +177,7 @@ body {
 }
 
 .company-address-sub-text {
-	color: #89a5bf;
+	color: #96ADC5;
 	font-weight: 300;
 }
 
